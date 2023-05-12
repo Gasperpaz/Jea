@@ -2,9 +2,9 @@
 
 
 #cabecera{
- padding-top:50px;
+ padding-top:450px;
  
- background-image: url("../ovejas-sin-pastor.jpg");
+ background-image: url("../ovejas.jpg");
 /*background-attachment: fixed; efecto imagen*/
  
   background-repeat:no-repeat;
@@ -144,10 +144,30 @@ margin-top:30px;
 #nosotros{
  padding-top:80px;
  
+ background-image: url("../fondo-verde6.png");
+/*background-attachment: fixed; efecto imagen*/
+
+/*border-bottom-right-radius:60px;
+border-bottom-left-radius:120px;*/
+ background-repeat:no-repeat;
+ background-size: cover;
+ background-position: cover;
+overflow: hidden;
   }
   #varones{
-	padding-top:80px;
-	margin-bottom:80px;
+	padding-top:120px;
+	padding-bottom:30%;
+	/*margin-bottom:80px;*/
+	background-image: url("../fondo-naranja.png");
+/*background-attachment: fixed; efecto imagen*/
+
+/*border-bottom-right-radius:60px;
+border-bottom-left-radius:120px;*/
+ background-repeat:no-repeat;
+ background-size: cover;
+ background-position: cover;
+overflow: hidden;
+
   }
   #imgVarones{
 	border-top-left-radius:45px;
@@ -164,3 +184,4 @@ samp{
 b{
   font-size:15px;
 }
+
