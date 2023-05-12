@@ -106,6 +106,7 @@ function celula(){
 function nosotros(){
 	nosotrosTexto.style="display:blok";
 	cabecera.style="display:none";
+	varones.style="display:none";
 	window.location='#nosotros';
 	
 }
