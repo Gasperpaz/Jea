@@ -14,7 +14,7 @@ function cambio(){
       
     
       for(let i=0; i<clase.length;i++){
-          clase[i].style.color="black";
+          clase[i].style.color="white";
           clase[i].style.borderBottom="2px solid Grey";
       }
       
@@ -38,7 +38,7 @@ function cambio(){
 else if(window.scrollY <200){
              
    for(let i=0; i<clase.length;i++){
-          clase[i].style.color="black";
+         // clase[i].style.color="black";
           clase[i].style.borderBottom="2px solid Grey";
       }
       titulo.style.color="black";
@@ -89,6 +89,7 @@ function inicioPag(){
 	cabecera.style="display:blok";
 	varones.style="display:none";
     nosotrosTexto.style="display:none";
+	window.location = '#cuerpo';
 }
 
 function celula(){
