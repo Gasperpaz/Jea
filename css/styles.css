@@ -2,9 +2,10 @@
 
 
 #cabecera{
- padding-top:450px;
+  
+ /*padding-top:450px;
  
- background-image: url("../ovejas.jpg");
+ /*background-image: url("../ovejas.jpg");
 /*background-attachment: fixed; efecto imagen*/
  
   background-repeat:no-repeat;
@@ -15,8 +16,9 @@ overflow: hidden;
   
 }
 #logo{
-    margin-top: 200px;
-    
+    margin-top: -70px;
+    z-index:1;
+	position:absolute
 }
 #titulo{
 /*border-bottom: 2px solid Grey;*/
@@ -55,6 +57,50 @@ font-weight: bold;
 .navbar{
     transition: all 3s;
 }
+.carousel-item{
+  /*transition: all 10s;*/
+ 
+  transition: transform 3s ease-in-out;
+}
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 4s 2.6s;
+}
+
+ #img{
+  background-image: url("../ovejas.jpg");
+  width:100%;
+  height:400px;
+  background-repeat:no-repeat;
+ background-size: cover;
+ background-position: cover;
+overflow: hidden;
+z-index:-1;
+}
+
+ #img2{
+  background-image: url("../paisaje.jpg");
+  width:100%;
+  height:400px;
+  background-repeat:no-repeat;
+ background-size: cover;
+ background-position: cover;
+overflow: hidden;
+
+}
+
+ #img3{
+  background-image: url("../paisaje2.jpg");
+  width:100%;
+  height:400px;
+  background-repeat:no-repeat;
+ background-size: cover;
+ background-position: cover;
+overflow: hidden;
+
+}
+
+
 #bienvenido{
     
     margin-top:50px;
